@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+  
+  <title>스마트 냉장고</title>
+	<link rel="stylesheet" type="text/css" href="indexcss.css">
+ <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+ </head>
+ <body>
+  <div class="center_wrap">
+  	 <img src="poto/maple.png" class="maple">
+	  	<div class = "re_wrap">
+		  	<div class="re2">
+		  		<div class="ge_wrap">
+			  		<div class="ge_front"></div>
+			  		<!--
+			  		<div class="ge4"></div>
+			  		<div class="ge3"></div>
+			  		<div class="ge2"></div>
+			  		<div class="ge1"></div>
+			  	-->
+		  		</div>
+		  	</div>
+		  	<div class="re1"></div>
+	  	</div>	
+  </div>
+<script>
+/*	$(document).ready(function(){
+		setInterval(function(){
+			$(".maple").animate({
+				left : -2500,
+				top:800,
+				opacity:0
+			},5500);
+		},300)
+		
+	}); */ 
+
+$(document).ready(function(){
+	$(".re2").click(function(){
+		$('.ge_front').css("background","#fff");
+		$('.ge_wrap').css("background","linear-gradient(180deg,LightCyan,DeepSkyBlue,DodgerBlue)");
+		$('.ge_front').height("100%").animate({height: 0}, 3000);
+		setTimeout(function(){
+			location.href="data2.html";
+		},3100);
+	});
+
+	$(".re1").click(function(){
+		$('.ge_front').css("background","linear-gradient(180deg,DodgerBlue,DeepSkyBlue,LightCyan)");
+		$('.ge_wrap').css("background","#fff");
+		$('.ge_front').height("0%").animate({height: "211px"}, 3000);
+		setTimeout(function(){
+			location.href="data1.html";
+		},3100);
+	});
+	
+});
+</script>
+ </body>
+</html>

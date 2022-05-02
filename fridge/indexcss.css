@@ -1,0 +1,135 @@
+* {list-style:none; margin:0; padding:0; text-decoration:none; box-sizing: border-box; }
+html { height:100%; }
+body { height:100%; background:#fff;}
+li{ list-style:none; }
+table{ border-spacing:0; }
+a { text-decoration:none; color:#333;}
+
+.center_wrap 
+{ 
+	float : left; 
+	width: 100%; 
+	height: 100%;  
+	background-image : url('poto/back.png'); 
+	background-repeat: no-repeat; 
+	background-size: 100% 100%; 
+	position: relative;
+	overflow: hidden;
+}
+
+.re_wrap 
+{  
+	width: 282px; 
+	height: 558px; 
+	position: absolute; 
+	top: 50%; left: 50%; 
+	margin-left: -141px; 
+	margin-top: -278px
+}
+
+.re_wrap div:hover {cursor: pointer;}
+
+.re1 
+{ 
+	float : left; 
+	width: 282px; 
+	height: 261px; 
+	background-image : url('poto/bottom.png'); 
+	background-size: 282px 261px;
+}
+
+.re2 
+{ 
+	float : left; 
+	width: 282px; 
+	height: 297px; 
+	background-image : url('poto/top.png'); 
+	background-size: 282px 297px;
+	position: relative;
+	
+}
+
+.maple
+ { 
+	position: absolute; 
+	animation-duration: 10s;
+	animation-name: maple;
+	animation-delay: 0s = 0s;
+	animation-iteration-count: 10;
+	right:0;
+	top: 0;
+	margin-top: 700px;
+}
+
+@keyframes maple {
+  	 from {
+  	 	top :-170%;
+  	 	left : 90%;
+
+  	 }
+  	 80%{
+  	 	opacity: 0%;
+  	 }
+  	 to {
+  	 	top : 0%;
+  	 	left : -80%;
+
+   	 }
+ 					}
+
+.ge_wrap { width : 94px; height: 211px; position : absolute; background:#fff; right: 14px; top : 47px;}
+
+.ge_front { 
+position: absolute;
+width : 100%; 
+height: 0%; 
+background:#fff;  
+}
+
+/*.ge2 { float : left; width : 100%; height: 25%;  background : #2074fe;}
+.ge3 { float : left; width : 100%; height: 25%;  background : #458bff;}
+.ge4 { float : left; width : 100%; height: 25%;  background : #6ba3ff;}*/
+
+/*모바일*/
+
+@media screen and (max-width: 767px) {
+
+.maple
+ { 
+	position: absolute; 
+	left: 50%; 
+	transform: translateX(-40%);
+	animation-duration: 10s;
+	animation-name: maple;
+	animation-delay: 0s = 0s;
+	animation-iteration-count: 10;
+	right:0;
+	top: 0;
+	margin-top: 750px;
+}
+
+}
+
+/*
+position: absolute; 
+	left: 50%; 
+	transform: translateX(-40%);
+	animation-duration: 10s;
+	animation-name: maple;
+	animation-delay: 0s = 0s;
+	animation-iteration-count: 10;
+	right:0;
+	top: 0;
+	margin-top: 750px;
+*/
+
+/*태블릿*/
+
+@media screen and (min-width: 768px) and (max-width: 979px) {
+
+}
+
+/*컴퓨터*/
+
+@media screen and (min-width: 980px) {
+	}
