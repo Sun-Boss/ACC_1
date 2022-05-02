@@ -1,0 +1,35 @@
+* {list-style:none; margin:0; padding:0; text-decoration:none;}
+body {  width : 620px; margin : 0 auto; } 
+li{ list-style:none; }
+table{ border-spacing:0; }
+a { text-decoration : none;}
+
+.header_wrap { float : left; width: 100%; height: 180px; }
+.top_wrap { float: left; width : 100%; height : 20px; background : #489CFF;}
+.main_top_wrap {float : left; width : 100%; height : 80px; }
+.main_logo_wrap {float : left; width : 100%; height : 80px; text-align: center; margin-top : 70px;}
+.main_logo > a > img { width : 220px; height : 60px; }
+
+.login_wrap { float : left; width : 100%; height: 100%;}
+.login_wrap > p { text-align: center; font-family: "맑은 고딕"; font-size: 35px; font-weight : bold;}
+.box_wrap { float : left; width: 100%; height: 150px; }
+.box1 {text-align: center; margin-top : 15px; margin-bottom: 10px;}
+.box1 > input { padding-left: 10px; width : 350px; height : 50px; font-size: 14px;}
+.box2 {text-align: center;}
+.box2 > input { padding-left: 10px; width : 350px; height : 50px; font-size: 14px;}
+
+.bottom_wrap { float : left; width : 100%; height :100%;}
+.bottom {text-align: center; margin-right :55px;}
+.bottom > input { width : 20px; height: 20px;}
+.bottom > span {font-size : 14px; font-family: "맑은 고딕"; margin-right: 30px;}
+
+.botton_wrap { float : left; width : 100%; height :100%; }
+.botton { text-align: center; margin-top: 10px;}
+.botton > input { width : 180px; height: 50px; background: #fff; border: 1px solid #747474; font-size: 14px; font-weight : bold; }
+.botton > span > input { width : 180px; height: 50px; background: #fff; border: 1px solid #747474; background: #489CFF; color : #fff; font-size: 14px; font-weight : bold;}
+
+.footer_wrap { float : left; width : 100%; height :100%; text-align: center;}
+.snslogin {text-align: center;}
+.text { height : 50px; font-size: 20px; font-weight : bold; padding-top: 20px;}
+.snslogin > input { width : 88px; height: 85px; outline-color : #F6F6F6;}
+

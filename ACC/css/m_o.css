@@ -1,0 +1,12 @@
+/* 메인 콘텐트 */
+#main_content { position: relative; width: 1000px; height: 400px; margin: 0 auto; }
+section {
+	list-style:none; text-decoration:none; width : 700px; margin : 0 auto;
+}
+a {text-decoration:none; color:#000;}
+
+/* 가입 양식 폼 */
+
+.m_o1 {float : left; width : 300px; height: 70px; margin-top : 200px; background-color: #D9E5FF; border: 3px solid #489CFF; border-style: ridge;}
+.m_o2 {float : left; width : 300px; height: 70px; margin-left : 50px; background-color: #DAD9FF; border: 3px solid #489CFF; border-style: ridge;}
+p {text-align: center; padding-top: 25px; }

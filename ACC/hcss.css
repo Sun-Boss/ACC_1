@@ -1,0 +1,28 @@
+* {list-style:none; margin:0; padding:0; text-decoration:none;}
+body {width : 620px; margin : 0 auto; } 
+li{ list-style:none; }
+table{ border-spacing:0; }
+a { text-decoration : none;}
+
+
+.header_wrap { float : left; width: 100%; height: 180px; }
+.top_wrap { float: left; width : 100%; height : 20px; background : #489CFF;}
+.main_top_wrap {float : left; width : 100%; height : 80px; }
+.main_logo_wrap {float : left; width : 100%; height : 80px; text-align: center; margin-top : 65px;}
+.main_logo > a > img { width : 220px; height : 60px; }
+
+.help_text_wrap {float : left; width : 100%; height: 100%;}
+.help_text_wrap > p { font-family : "맑은 고딕"; font-size: 20px;}
+
+.box_wrap {float : left; width : 100%; height: 100%; margin-top: 50px; text-align: center; }
+.time {float : left; width : 280px; height : 150px; margin-right : 25px; border : 1px solid #ccc; }
+.call {float : left; width : 280px; height : 150px; margin-left : 30px; border : 1px solid #ccc; }
+.time > p {margin-top : 30px;}
+.call > p {margin-top : 50px;}
+.time > p > span {font-size: 20px; font-weight : bold; color : #489CFF; }
+.call > p > span {font-size: 20px; font-weight : bold; color : #489CFF; }
+
+.botton_wrap { float : left; width : 100%; height :100%; }
+.botton { text-align: center; margin-top:60px; }
+.botton > input { width : 301px; height: 80px; background: #fff; border: 1px solid #747474; font-size: 14px; font-weight : bold; margin-right: 10px; outline-color : #ccc;}
+.botton > span > input { width : 301px; height: 80px; background: #fff; border: 1px solid #747474; background: #489CFF; color : #fff; font-size: 14px; font-weight : bold; outline-color : #DB3A00;}
