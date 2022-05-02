@@ -1,0 +1,10 @@
+*{
+	list-style:none; 
+	margin:0; 
+	padding:0; 
+	text-decoration:none;
+}
+
+.temperature { float : left; width : 20%; height: 50%; margin-top: 5%;}
+.temperature_2 { float : left; width : 20%; height: 50%; margin-top: 5%;}
+.content { float : left; width : 30%; height : 30%; margin-top: 5%; }

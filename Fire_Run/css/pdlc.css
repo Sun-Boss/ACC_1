@@ -1,0 +1,9 @@
+*{
+	list-style:none; 
+	margin:0; 
+	padding:0; 
+	text-decoration:none;
+}
+
+.main_section {float : left; width : 100%; height: 650px; }
+.content { float : left; width : 30%; height : 30%; position: relative; left: 35%; top: 1%;}

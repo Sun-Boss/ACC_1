@@ -1,0 +1,10 @@
+*{
+	list-style:none; 
+	margin:0; 
+	padding:0; 
+	text-decoration:none;
+}
+
+.main_section {float : left; width : 100%; height: 650px; }
+.content { float : left; width : 30%; height : 30%; margin-left: 35%; margin-top : 1%;}
+div.rain_situation { width : 50%; height : 10%; position: relative; left: 37%; top: 85%; font-family: "맑은 고딕"sans-serif; font-size: 25pt; font-weight: bold;}

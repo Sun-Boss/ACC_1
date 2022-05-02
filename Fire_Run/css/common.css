@@ -1,0 +1,87 @@
+/* 마진 패딩 초기화 */
+* { padding: 0; margin: 0; }
+/* 페이지 기본 글꼴과 크기 설정 */
+body { font-family: "돋움";   font-size: 14px; }
+img { border: 0; }
+ul { list-style-type: none; }
+/* <a> 태그 기본 설정 */
+a { display: inline-block; text-decoration: none; }
+a:link { text-decoration:none; color: #222222; }
+a:hover { text-decoration:none; color: #222222; }
+a:visited { text-decoration:none; color: #222222; }
+a:active { text-decoration:none; color: #222222; }
+
+section { float : left; margin-top: 2%; margin-left: 32%;}
+/* 가입 양식 폼 */
+#join_box {	width: 600px;	margin: 0 auto; }
+#join_box h2 { 	border-bottom: solid 1px #dddddd; padding-top: 50px; }
+#join_box .col1 { float: left;	width: 110px; margin-top: 4px; }
+#join_box .col2 { float: left;	width: 400px; }
+#join_box .col3 { float: left; }
+#join_box .form input { width: 390px;	height: 22px; }
+#join_box .form { height: 38px; }
+#join_box .id {	margin-top: 20px; }
+#join_box input[name=email1] { width: 100px; }
+#join_box input[name=email2] { width: 275px; }
+#join_box .bottom_line { margin-top: 10px;	border-bottom: solid 1px #cccccc; }
+#join_box .buttons { text-align: right;	margin: 20px 100px 0 0; }
+
+.table_box {
+	float : left; 
+	width : 50%; 
+	height : 70%; 
+	margin-left : 30%; 
+	margin-top : 10%; 
+}
+
+
+#line { 
+	height: 2px; 
+	background : #489CFF; 
+	width : 80%;
+}
+
+#first {
+	width: 20%;
+}
+
+p { 
+	position : relative; 
+	top : 2px; 
+	color : #A6A6A6; 
+	font-family : Dotum,"맑은 고딕",Helvetica,sans-serif; 
+	font-size : 10px; 
+}
+
+
+td, th { 
+	border-right : none; 
+	border-left : none; 
+	height : 35px;
+	width : 400px; 
+	padding : 5px; 
+	font-family : Dotum,"맑은 고딕",Helvetica,sans-serif; 
+	font-size : 12px; 
+}
+
+table { 
+	width: 80%;
+	border-collapse : collapse; 
+	border : none; 
+}
+
+#button {
+	float:left;
+	width : 10%;
+	height: 6%;
+	margin-left : 74%;
+}
+
+#button input {
+	width : 100%;
+	height: 25px;
+	margin-top : 10px;
+	float : right;
+	font-family : Dotum,"맑은 고딕",Helvetica,sans-serif; 
+	font-size : 12px;
+}
